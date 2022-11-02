@@ -1,0 +1,55 @@
+.cardListWrapper{
+    display: flex;
+    flex-direction: column;
+    color: darkcyan;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%
+}
+.VacationListCards {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-height: 430px;
+    overflow-y: auto;
+}
+.addButton{
+width: 93%;
+height: 100px;
+background: white;
+color: darkcyan;
+cursor: pointer;
+display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: 5px 5px 10px;
+}
+.VacationList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.linkButton{
+    color:darkcyan;
+    font-size: 18px;
+    width: 100%;
+    text-decoration: none;
+    font-weight: 900;
+    cursor: pointer;
+
+}
+
+.VacationList>.filterButton{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.pagination-wrapper{
+position: absolute;
+bottom: 23px;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+}

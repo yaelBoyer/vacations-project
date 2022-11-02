@@ -1,0 +1,23 @@
+html, body, #root {
+    margin: 0;
+    height: 100%;
+    text-align: center;
+    color: white;
+    
+
+    
+    
+}
+
+a {
+    color: blue;
+}
+
+.Box {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
+    
+}

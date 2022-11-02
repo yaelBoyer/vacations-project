@@ -1,0 +1,36 @@
+
+.EditVacation > form {
+	width: 390px;
+    text-align: left;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+
+label{
+    align-self: flex-start;
+}
+.btn-default{    
+    width: 90px;
+    border-radius: 30px;
+    padding: 9px;
+    border: 1px solid gainsboro;
+    align-self: flex-start;
+}
+
+.EditVacation input {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    height: 39px;
+    border-radius: 4px;
+    border: 1px solid gainsboro;
+    background: white;
+}
+
+.EditVacation h2 {
+    text-align: center;
+}

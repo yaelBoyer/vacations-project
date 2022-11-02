@@ -1,0 +1,32 @@
+.AddVacation {
+  width: 80%;	
+}
+.addVacation > form {
+	width: 390px;
+    text-align: left;
+    margin: auto;
+}
+
+
+.addVacation > .btn-default{    
+    width:25px;
+    height: 25px;
+    border-radius: 200px;
+    /* padding: 9px; */
+    margin-left: 250px;
+    border: 1px solid gainsboro;
+}
+
+.addVacation input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    height: 39px;
+    border-radius: 4px;
+    border: 1px solid gainsboro;
+    background: white;
+}
+h2{
+    text-align: center;
+    margin: auto;
+    }

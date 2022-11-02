@@ -1,0 +1,27 @@
+.Layout {
+    font-family: Arial, Helvetica, sans-serif;
+	height: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 22% 80% 5%;
+    grid-template-columns: repeat(12, 1fr); /* fr = fraction - one unit */
+    background-image: url("../../../images/background.jpg");
+    background-repeat: repeat-y;
+    background-repeat: repeat-x;
+}
+
+header, footer {
+    grid-column: span 12;
+}
+
+main {
+    grid-column: span 11;
+    overflow: auto; /* Scrolling if content exceeds */
+}
+
+
+aside{
+    background: white;
+    
+}
+

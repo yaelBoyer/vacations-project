@@ -1,0 +1,44 @@
+.Login > form {
+	width: 390px;
+    text-align: left;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* .Login input, .Login button {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+} */
+
+label{
+    align-self: flex-start;
+}
+.btn-default-login{    
+    width: 90px;
+    border-radius: 30px;
+    padding: 9px;
+    /* margin-left: 83px ; */
+    border: 1px solid gainsboro;
+}
+
+.Login input {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    height: 39px;
+    border-radius: 4px;
+    border: 1px solid gainsboro;
+}
+
+.Login h2 {
+    text-align: center;
+}
+
+.Login span {
+    color: red;
+    margin: 0 20px;
+    position: absolute;
+}

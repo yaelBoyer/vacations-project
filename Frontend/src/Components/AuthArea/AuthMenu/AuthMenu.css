@@ -1,0 +1,11 @@
+.AuthMenu {
+    color: white;
+	background: darkcyan;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.login-links {
+color: white !important;
+}
